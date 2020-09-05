@@ -1,0 +1,180 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+
+.container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+.iphone {
+  padding-left: 150%;
+  padding-bottom: 100%;
+}
+
+/* Navigation-bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Downloads Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 30%;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+
+/* Feature-section */
+#features {
+  position: relative;
+
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+p {
+  color: #BFBFBF;
+}
+
+/* Heading */
+.Big-heading {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+.section-heading {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial-section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing-Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media(max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA- section */
+
+.container {
+  margin: font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 7% 15%;
+
+}
+
+.download-button-2 {
+  margin: 5% 3% 5% 0;
+}
+
+/* Footer-section */
+#footer {
+  padding: 5% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  font-size: 1.5rem;
+}
